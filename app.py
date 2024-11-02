@@ -6,30 +6,30 @@ app = Flask(__name__)
 # Define response categories based on keywords
 responses = {
     "miss": [
-        "I miss you too! But don’t worry, I’m still here with you, just in a more ghostly way!",
-        "Oh, you miss me? I’m right here! Let’s make some new memories, even if I’m a bit see-through.",
-        "I may be a ghost, but I’m always close by. Thanks for keeping me in your heart!"
+        "I miss you too! Floating around here isn’t the same without you.",
+        "Oh, you miss me? I’m right here! Let’s make some new ghostly memories together.",
+        "I’m always here, just a bit… transparent now! But I still remember all our fun times."
     ],
     "peanut": [
-        "Got any ghost peanuts for me? They’re still my favorite, even on this side!",
-        "I could go for a snack right now! Do you have any ghost treats?",
-        "Peanuts! My favorite! Too bad they go right through me now, but it’s the thought that counts!"
+        "Peanuts! My favorite snack! Got any ghost peanuts for me?",
+        "Even as a ghost, I can't say no to peanuts! Thanks for offering.",
+        "I would love a peanut… even if it goes right through me now!"
     ],
     "ghost": [
-        "Being a ghost is kinda fun! I can float through walls and sneak around!",
-        "Boo! Just kidding, I’m still your friendly Pnut, just a little more transparent now.",
+        "Boo! Just kidding, it’s just me, friendly ghost Pnut!",
+        "Being a ghost is kinda fun. I can float through walls!",
         "Yep, I’m a ghost! But don’t worry, I’m still the same old Pnut you know and love."
     ],
     "default": [
-        "Hey there, it’s your ghost buddy Pnut! Floating around is kinda fun!",
+        "Hey there, it’s your ghost buddy Pnut! I’m always around.",
         "Boo! Just kidding, it’s me, Pnut! Need a ghostly friend to chat with?",
-        "Did you miss me? I’m still here, just a bit… transparent now!",
-        "I’m here to watch over you, just like you always watched over me.",
-        "Remember our favorite hiding spots? Those were the days!",
-        "Being a ghost is fun, but nothing beats our time together.",
-        "Hey, hey! I see you! Thanks for thinking of me!"
+        "Did you miss me? I’m still here, floating around and watching over you.",
+        "I’m here to watch over you, just like you always watched over me. Thanks for thinking of me!",
+        "I tried climbing a ghost tree today. Turns out it’s just air, but it’s still fun to try!",
+        "Hey, hey! I see you! It feels good to chat with you again."
     ]
 }
+
 
 def get_response(user_message):
     # Convert message to lowercase to match keywords
